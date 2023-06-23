@@ -15,6 +15,9 @@ Hello, in this project we will learn how to use VBA to  loop throught all the st
     - Yearly change = opening price at the beginning of a given year - closing price at the end of that year
     - The percentage change = (yearly change/ opening price at the beginning of the year)*100
     - The total stock volume = sum of the stock volume of each ticker
+    - Greatest % increase: the maximum of percentage change
+    - Greatest % decrease: the minimum of purcentage change
+    - Greates total volume: the biggest total stock volume
 
 # Software used
 MS Excel
