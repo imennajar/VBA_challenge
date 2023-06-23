@@ -127,4 +127,4 @@ Call sizing
 End Sub
 ```
 ## Tip:
-To verify if the code is working correctly for the cells Greatest % increase, Greatest % decrease and Greatest total volume, we can use the functions Min and Max and compare with our coding result :smile:
+To verify if the code is working correctly for the cells Greatest % increase, Greatest % decrease and Greatest total volume, we can use the functions Min and Max and compare with our coding results :smile:
