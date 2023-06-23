@@ -30,10 +30,10 @@ MS Excel
 ![screenshot after](/Screenshot%20(2).png)
 
 ## Video to watch
-https://drive.google.com/file/d/1BghDq6z_kFNh54g5Fo61CYzk-I3oj03N/view?usp=drive_link
+https://drive.google.com/file/d/1Z45YCd-eEwH1AzR3o59wsiavJTMx8C14/view?usp=drive_link
 
 ## Code
-```Main function
+``` Function Stock:
 'initialize a counter to save the position of the bigenning of the first ticker
 
 j = 2
