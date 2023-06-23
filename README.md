@@ -1,8 +1,8 @@
-# How to write a script in VBA to manipulate input data form excel, calculate and display output data :cd:
+# How to write a script in VBA to manipulate input data from Excel, calculate and display output data: :cd:
 
-In this project we will learn how to use VBA to  loop throught all the stock for one year and output useful data
+In this project we will learn how to use VBA to  loop through all the stocks for one year and produce useful data output
 
-# what we will learn from this project
+# What we will learn from this project:
 
     - How to declare and use the right variables
     - How to use the right instructions: data entry, condition, iteration, and data display
@@ -10,19 +10,20 @@ In this project we will learn how to use VBA to  loop throught all the stock for
     - How to call created functions
     - How to apply the same code in several sheets
     
-# Instruction
+# Instructions:
     -The ticker symbol: the symbol of each ticker without redundancy
     - Yearly change = opening price at the beginning of a given year - closing price at the end of that year
     - The percentage change = (yearly change/ opening price at the beginning of the year)*100
     - The total stock volume = sum of the stock volume of each ticker
     - Greatest % increase: the maximum of percentage change
     - Greatest % decrease: the minimum of purcentage change
-    - Greates total volume: the biggest total stock volume
+    - Greatest total volume: the biggest total stock volume
 
-# Software used
+# Software used:
+
 MS Excel
 
-#  Program
+#  Program:
 
 ## Initial interface
 ![screenshot before](/Screenshot%20(4).png)
@@ -34,7 +35,22 @@ https://drive.google.com/file/d/1Z45YCd-eEwH1AzR3o59wsiavJTMx8C14/view?usp=drive
 
 ## Code
 ``` Function Stock:
-'initialize a counter to save the position of the bigenning of the first ticker
+
+Sub stock()
+
+'variables declaration:
+
+Dim i As Double
+Dim j As Double
+Dim k As Double
+Dim x As String
+
+Dim open_value As Double
+Dim close_value As Double
+Dim total_stock As Double
+
+
+'initialize a counter to save the position of the beginning of the first ticker
 
 j = 2
 
@@ -61,7 +77,7 @@ For i = j To Cells(Rows.Count, 1).End(xlUp).Row
         
     Else
 
-        'add the ticker in the cell(k,9)
+        'add each ticker to its appropriate cell
         
         Cells(k, 9).Value = Cells(i, 1).Value
              
@@ -89,7 +105,7 @@ For i = j To Cells(Rows.Count, 1).End(xlUp).Row
         
         total_stock = Cells(j, 7)
         
-       'increment the counter to save the position of the bigenning of the next ticker
+       'increment the counter to save the position of the beginning of the next ticker
         
         j = i + 1
         
@@ -97,6 +113,18 @@ For i = j To Cells(Rows.Count, 1).End(xlUp).Row
         
         k = k + 1
 
+    End If
+    
+Next i
+
+'Call needed function
+
+Call greatest
+Call heading
+Call coloring
+Call sizing
+
+End Sub
     End If
     
 Next i
