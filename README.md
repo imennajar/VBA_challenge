@@ -11,16 +11,20 @@ Hello, in this project we will learn how to use VBA to  loop throught all the st
     - How to call created function
     - How to apply the same code in several sheets
 
-# 3. Software we need:
+# 3. Software used
 MS Excel
 
-# Our Program
+#  Program
 
-Result
-
+## Initial interface
 ![screenshot before](/Screenshot%20(4).png)
+## Final interface
 ![screenshot after](/Screenshot%20(2).png)
 
+## Video to watch
+https://drive.google.com/file/d/1BghDq6z_kFNh54g5Fo61CYzk-I3oj03N/view?usp=drive_link
+
+## Code
 ```Main function
 'initialize a counter to save the position of the bigenning of the first ticker
 
