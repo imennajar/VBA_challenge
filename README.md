@@ -126,7 +126,7 @@ Call sizing
 
 End Sub
 ```
-# Bonus
+# Bonus:
 
 - Change the width of created columns for better readability
   
