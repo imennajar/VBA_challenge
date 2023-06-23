@@ -130,4 +130,6 @@ End Sub
 Next i
 
 call greatest
-
+```
+## Tip:
+To verify if the code is working correctly for the cells Greatest % increase, Greatest % decrease and Greatest total volume, we can use the function Min and Max and compare with our coding result[smile]
