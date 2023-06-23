@@ -1,17 +1,22 @@
-# 1. How to write a script in VBA to manipulate input data form excel, calculate and display output data :smile:
-
+# How to write a script in VBA to manipulate input data form excel, calculate and display output data :smile:
 
 Hello, in this project we will learn how to use VBA to  loop throught all the stock for one year and output useful data
 
-# 2. what we will learn from this project
+# what we will learn from this project
 
     - How to declare and use the right variables
     - How to use the right instructions: data emtry, condition, iteration, and data display
     - How to call predefined functions
     - How to call created functions
     - How to apply the same code in several sheets
+    
+# Instruction
+    -The ticker symbol: the symbol of each ticker without redundancy
+    - Yearly change = opening price at the beginning of a given year - closing price at the end of that year
+    - The percentage change = (yearly change/ opening price at the beginning of the year)*100
+    - The total stock volume = sum of the stock volume of each ticker
 
-# 3. Software used
+# Software used
 MS Excel
 
 #  Program
