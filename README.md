@@ -1,4 +1,4 @@
-# How to write a script in VBA to manipulate input data form excel, calculate and display output data :smile:
+# How to write a script in VBA to manipulate input data form excel, calculate and display output data :CD:
 
 Hello, in this project we will learn how to use VBA to  loop throught all the stock for one year and output useful data
 
