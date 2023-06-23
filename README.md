@@ -6,9 +6,9 @@ Hello, in this project we will learn how to use VBA to  loop throught all the st
 # 2. what we will learn from this project
 
     - How to declare and use the right variables
-    - How to use the right instructions: input of date, condition, iteration, and output of data
+    - How to use the right instructions: data emtry, condition, iteration, and data display
     - How to call predefined functions
-    - How to call created function
+    - How to call created functions
     - How to apply the same code in several sheets
 
 # 3. Software used
