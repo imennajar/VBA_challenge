@@ -19,7 +19,7 @@ MS Excel
 Result
 
 ![screenshot before](/Screenshot%20(4).png)
-![screenshot after](/Screenshot%20(1).png)
+![screenshot after](/Screenshot%20(2).png)
 
 ```Main function
 'initialize a counter to save the position of the bigenning of the first ticker
