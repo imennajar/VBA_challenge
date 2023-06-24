@@ -24,7 +24,7 @@ MS Excel
 
 #  Program:
 
-## Place to store VBA code 
+## Place to store VBA code 🔎
 
 Sheet Module/ Code Module/ ThisWorkbook Module
 
@@ -38,7 +38,7 @@ ThisWorkbook Module contains Events that are run when the user takes an action i
 ## Video to watch
 https://drive.google.com/file/d/1Z45YCd-eEwH1AzR3o59wsiavJTMx8C14/view?usp=drive_link
 
-## Code
+## Code ✍️
 
 
 ``` Function Stock:
@@ -133,11 +133,11 @@ Call sizing
 
 End Sub
 ```
-# Bonus:
+# Bonus: 🤦‍♀️
 
 - Change the width of created columns for better readability
   
 - Write a code for the conditional formatting to apply it to all the other sheets automaticly
 
-# Tip:
+# Tip:🪄
 To verify if the code is working correctly for the cells Greatest % increase, Greatest % decrease, and Greatest total volume, we can use the functions Min and Max and compare with our coding results :smile:
