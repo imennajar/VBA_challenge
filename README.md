@@ -24,7 +24,8 @@ MS Excel
 
 #  Program:
 
-The code is written in  
+Place to store VBA code: Sheet Module/ Code Module/ ThisWorkbook Module
+ThisWorkbook Module contains Events that are run when the user takes an action in/on the workbook. Our code is stored in ThisWorkbook Module
 
 ## Initial interface
 ![screenshot before](/Screenshot%20(4).png)
