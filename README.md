@@ -6,8 +6,7 @@ In this project we will learn how to use VBA to  loop through all the stocks for
 
     - How to declare and use the right variables
     - How to use the right instructions: data entry, condition, iteration, and data display
-    - How to call predefined functions
-    - How to call created functions
+    - How to call predefined and created functions and subroutines
     - How to apply the same code in several sheets
     
 # Instructions:
@@ -25,6 +24,8 @@ MS Excel
 
 #  Program:
 
+The code is written in  
+
 ## Initial interface
 ![screenshot before](/Screenshot%20(4).png)
 ## Final interface
@@ -34,6 +35,8 @@ MS Excel
 https://drive.google.com/file/d/1Z45YCd-eEwH1AzR3o59wsiavJTMx8C14/view?usp=drive_link
 
 ## Code
+
+
 ``` Function Stock:
 
 Sub stock()
@@ -117,7 +120,7 @@ For i = j To Cells(Rows.Count, 1).End(xlUp).Row
     
 Next i
 
-'Call needed function
+'Call needed subroutines
 
 Call greatest
 Call heading
