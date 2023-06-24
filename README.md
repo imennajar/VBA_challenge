@@ -24,7 +24,7 @@ MS Excel
 
 #  Program:
 
-## Place to store VBA code: 
+## Place to store VBA code 
 
 Sheet Module/ Code Module/ ThisWorkbook Module
 
