@@ -73,6 +73,7 @@ open_value = Cells(2, 3).Value
 
 total_stock = Cells(2, 7).Value
 
+'loop from the first position of the new ticker
 
 For i = j To Cells(Rows.Count, 1).End(xlUp).Row
 
@@ -100,7 +101,7 @@ For i = j To Cells(Rows.Count, 1).End(xlUp).Row
 
         Cells(k, 11).Value = Round((Cells(k, 10).Value / open_value) * 100, 2) & "%"
         
-        'save the open value for the next ticker
+        'add the open value for the next ticker
         
         open_value = Cells(i + 1, 3).Value
         
