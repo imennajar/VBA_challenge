@@ -101,7 +101,7 @@ For i = j To Cells(Rows.Count, 1).End(xlUp).Row
 
         Cells(k, 11).Value = Round((Cells(k, 10).Value / open_value) * 100, 2) & "%"
         
-        'add the open value for the next ticker
+        'save the open value for the next ticker
         
         open_value = Cells(i + 1, 3).Value
         
